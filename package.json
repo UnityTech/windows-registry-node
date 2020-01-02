@@ -1,6 +1,6 @@
 {
   "name": "windows-registry",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such.",
   "main": "index.js",
   "directories": {
@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "ffi": "^2.0.0",
-    "ref": "^1.2.0",
-    "ref-struct": "^1.0.2",
-    "ref-union": "^1.0.0"
+    "ffi-napi": "^2.4.5",
+    "ref-napi": "^1.4.2",
+    "ref-struct-napi": "^1.1.0",
+    "ref-union-di": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

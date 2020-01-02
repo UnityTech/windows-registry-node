@@ -3,11 +3,11 @@
  * This is used for our tests
  */
 'use strict';
-require('ref');
+var ref = require('ref-napi');
 var debug = require('debug')('windows-registry'),
     assert = require('assert'),
-    struct = require('ref-struct'),
-    uniontype = require('ref-union'),
+    struct = require('ref-struct-napi'),
+    uniontype = require('ref-union-di')(ref),
     types = require('../../lib/types');
 
 var DUMMYUNIONNAME = uniontype({
